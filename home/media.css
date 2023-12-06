@@ -1,0 +1,54 @@
+@media screen and (max-width: 900px){
+    .header_title h2{
+        width: 80%;
+        letter-spacing: 5px;
+    }
+    .header_title{
+        display: flex;
+        flex-direction: column; 
+        align-items: start;
+        justify-content: center;
+        gap: 10vh;   
+        height: 90vh;
+    }
+    .nav_bar ul {
+        gap: 20px;
+    }
+    .title p:last-child{
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+    .container{
+        width: 100%;
+    }  
+    #toggle {
+        display: block;
+    }
+    .logo ul, .nav_bar button{
+        display: none;
+    }
+    .nav_bar {
+        justify-content: space-around;
+    }
+    /* ////////////////// hamburger /////////////////////// */
+
+    .header_title{
+        text-align: center;
+        align-items: center;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .header_title h2{
+        width: 100%;
+        font-size: 2em;
+    }
+}
