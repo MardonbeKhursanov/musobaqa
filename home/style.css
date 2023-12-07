@@ -239,3 +239,61 @@ width: 50%;
     width: 30vh;
     height: 40vh;
 }
+.readmore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 00px;
+    gap: 20px;
+    text-align: center;
+}
+.readmore h2{
+    color: var(--Black, #161722);
+    text-align: center;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 137.5% */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+}
+.readmore p:last-child{
+    display: flex;
+    align-items: center;
+}
+#church{
+    background: var(--Grey, #F5F2F0);
+}
+.church_boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.charch_box{
+    width: 300px;
+    background-image: url(../img/church_1.png);
+    height: 40vh;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 5vh;
+    color: white;
+}
+.charch_box p{
+    opacity: 00.6;
+}
+.charch_box h2{
+    color: var(--White, #FFF);
+
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.24px;
+text-transform: uppercase;
+}
