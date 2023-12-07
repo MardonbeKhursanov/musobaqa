@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     .header_title h2{
         width: 80%;
         letter-spacing: 5px;
@@ -17,6 +17,16 @@
     .title p:last-child{
         width: 100%;
         font-size: 10px;
+    }
+    .divlar {
+        gap: 0;
+    }
+    .divlar img{
+        width: 30%;
+        height:35vh;
+    }
+    .divlar div {
+        width: 35%;
     }
 }
 
@@ -50,5 +60,51 @@
     .header_title h2{
         width: 100%;
         font-size: 2em;
+    }
+    .box p{
+        width: 100%;
+    }
+    .boxes .box{
+        width: 60%;
+        padding: 2vh;
+    }
+    .title h1{
+        font-size: 1.5em;
+    }
+    .divlar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .divlar img{
+        width: 300px;
+        height: auto;
+    }
+    .divlar div{
+        height: auto;
+    }
+    .divlar div img{
+        width: 300px;
+        height: auto;
+    }
+    .divlar div button{
+        position: absolute;
+        margin-top: 100vh;
+    }
+    #toggle{
+        position: fixed;
+    }
+    #hamburger{
+        position: fixed;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+    .boxes .box{
+        width: 80%;
+        padding: 5vh;
     }
 }

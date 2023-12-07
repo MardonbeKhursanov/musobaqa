@@ -211,3 +211,31 @@ width: 50%;
 
 
 /* /////////////a church that's relevant -------end///////////////////////// */
+
+
+
+
+
+
+
+.divlar{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 40px;
+}
+.divlar div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+.divlar img{
+    width: 30vh;
+    height: 40vh;
+    flex-shrink: 0;
+}
+.divlar div img{
+    width: 30vh;
+    height: 40vh;
+}
